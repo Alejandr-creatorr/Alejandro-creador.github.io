@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Alejandro Valencia — Portafolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="clase.css">
+</head>
+<body>
+
+  <header class="hero">
+    <div class="hero-foto">
+      <img src="Multimedia.jpg" alt="Foto de Alejandro Valencia">
+    </div>
+    <div class="hero-texto">
+      <p class="hero-kicker">Portafolio personal</p>
+      <h1>Alejandro Valencia</h1>
+      <p class="hero-bio">
+        Tengo 21 años y soy estudiante de la Universidad Santiago de Cali (USC).
+        He trabajado como administrador en una discoteca y en una empresa familiar,
+        combinando formación técnica con experiencia real de gestión.
+      </p>
+    </div>
+  </header>
+  <section class="contacto">
+    <a href="mailto:valenciaalejo925@gmail.com">valenciaalejo925@gmail.com</a>
+    <span class="separador">·</span>
+    <a href="tel:+573228402215">322 840 2215</a>
+    <span class="separador">·</span>
+    <span>Cali, Valle del Cauca</span>
+  </section>
+
+  <main class="contenedor">
+
+    <section class="columna">
+      <h2>Historial académico</h2>
+
+      <ul class="linea-tiempo" id="lista-academica">
+        <li><span class="punto"></span><span class="texto">Colegio</span></li>
+        <li><span class="punto"></span><span class="texto">Universidad</span></li>
+        <li><span class="punto"></span><span class="texto">Cursos y Diplomados</span></li>
+      </ul>
+
+      <div class="agregar">
+        <input type="text" id="input-academico" placeholder="Nuevo ítem académico...">
+        <button id="btn-academico">Agregar</button>
+      </div>
+    </section>
+
+    <section class="columna">
+      <h2>Historial laboral</h2>
+
+      <ul class="linea-tiempo" id="lista-laboral">
+        <li><span class="punto"></span><span class="texto">Monitor Académico</span></li>
+        <li><span class="punto"></span><span class="texto">Consultor</span></li>
+      </ul>
+
+      <div class="agregar">
+        <input type="text" id="input-laboral" placeholder="Nueva experiencia...">
+        <button id="btn-laboral">Agregar</button>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <p>Alejandro Valencia · 2026</p>
+  </footer>
+
+  <script src="actividad.js"></script>
+</body>
+</html>
